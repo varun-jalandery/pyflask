@@ -18,7 +18,10 @@ To build/rebuild the docker container
 $ docker-compose build
 ```
 
-
+To login into python container
+```sh
+docker exec -it $(docker ps | grep "pypy_api" | awk '{print $1}') bash
+```
 To view the api on browser, open below link
 
 [http://localhost:4000](http://localhost:4000)
