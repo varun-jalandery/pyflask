@@ -3,8 +3,6 @@
 [Docker Compose](https://docs.docker.com/compose/install/) is needed to set up this project on
 dev machine.
 
-Python3 and Postgres docker images are used
-
 ----
 ## Commands
 
